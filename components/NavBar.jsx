@@ -10,6 +10,7 @@ const NavBar = () => {
     <div className='navbar-container'>
       <p className='logo'>
         <Link href='/'>JSM Headphones</Link>
+        <a href="https://hetech-next-ecommerce.sanity.studio/desk" target='_blank' className="admin_link">Admin</a>
       </p>
       <button type='button' className='cart-icon' onClick={()=> setShowCart(true)}>
         <AiOutlineShopping />
